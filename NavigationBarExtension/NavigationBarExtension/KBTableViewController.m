@@ -92,7 +92,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
+    // 导航栏底部的线隐藏
     [self.navigationController.navigationBar setShadowImage:[[UIImage alloc]init]];
 }
 
